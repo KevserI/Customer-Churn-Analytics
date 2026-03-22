@@ -33,7 +33,7 @@ The project analyzes customer churn across:
 - Activity Status
 
 ## Dashboard
-![Dashboard](dashboard/dashboard.png)
+![Dashboard](Dashboard/dashboard.png)
 
 ## Key Insights
 - Churn rate differs across geographies
