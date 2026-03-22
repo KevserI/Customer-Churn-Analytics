@@ -1,0 +1,10 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: athena
+      region_name: eu-central-1
+      database: AwsDataCatalog
+      schema: dbt_database
+      s3_staging_dir: s3://kevser-dbt-project/athena-results/
+      work_group: primary
